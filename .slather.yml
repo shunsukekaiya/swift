@@ -1,0 +1,15 @@
+coverage_service: cobertura_xml
+xcodeproj: SwiftCoverage.xcodeproj
+workspace: SwiftCoverage.xcworkspace
+scheme: SwiftCoverage
+source_directory: /Users/shun/Desktop/practice/SwiftCoverage
+output_directory: xml_report
+ignore:
+  - Pods/*
+  - Carthage/*
+  - "**/AppDelegate.swift"
+  - "**/SceneDelegate.swift"
+  - "**/Generated/*"
+  - "**/UIParts/*"
+  - "**/Views/*"
+  - "**/Routers/*"
